@@ -1,0 +1,42 @@
+# URLS
+hostname = "www.algolab.com.tr"
+api_hostname = f"https://{hostname}"
+api_url = api_hostname + "/api"
+socket_url = f"wss://{hostname}/api/ws"
+
+# MARKETS
+MARKETS = {
+    "VIP": "BIST30 VIOP",
+    "KIYM": "KIYMETLİ MADENLER",
+    "FX": "FOREX",
+    "IMKBH": "BIST SPOT",
+    "IMKBX": "ENDEKS",
+    "INTUSD": "",
+    "INTEUR": "",
+}
+# USER INFO
+MY_API_KEY=''
+MY_USERNAME = ""
+MY_PASSWORD = ""
+
+# ENDPOINTS
+URL_LOGIN_USER = "/api/LoginUser"
+URL_LOGIN_CONTROL = "/api/LoginUserControl"
+URL_GETEQUITYINFO = "/api/GetEquityInfo"
+URL_GETSUBACCOUNTS = "/api/GetSubAccounts"
+URL_INSTANTPOSITION = "/api/InstantPosition"
+URL_TODAYTRANSACTION = "/api/TodaysTransaction"
+URL_VIOPCUSTOMEROVERALL = "/api/ViopCustomerOverall"
+URL_VIOPCUSTOMERTRANSACTIONS = "/api/ViopCustomerTransactions"
+URL_SENDORDER = "/api/SendOrder"
+URL_MODIFYORDER = "/api/ModifyOrder"
+URL_DELETEORDER = "/api/DeleteOrder"
+URL_DELETEORDERVIOP = "/api/DeleteOrderViop"
+URL_SESSIONREFRESH = "/api/SessionRefresh"
+URL_GETCANDLEDATA = "/api/GetCandleData"
+URL_VIOPCOLLETERALINFO = "/api/ViopCollateralInfo"
+URL_RISKSIMULATION = "/api/RiskSimulation"
+URL_GETEQUITYORDERHISTORY = "/api/GetEquityOrderHistory"
+URL_GETVIOPORDERHISTORY = "/api/GetViopOrderHistory"
+URL_CASHFLOW = "/api/CashFlow"
+URL_ACCOUNTEXTRE = "/api/AccountExtre"
